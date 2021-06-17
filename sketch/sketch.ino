@@ -70,6 +70,7 @@ void loop() {
     if(cmOut <= 150){ 
       movimientoServo(servoOut); 
       ingreso = false;
+      pantallaLuces.clear();
     }
   }
 }
